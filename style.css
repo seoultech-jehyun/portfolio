@@ -332,6 +332,7 @@ h1, h2, .title-div {
     background-color: #555; /* 카드 배경색 */
     justify-content: flex-start;
     padding: 10px 20px;
+    padding-bottom: 15px;
     box-sizing: border-box;
     border-radius: 5px;
 }
@@ -416,7 +417,7 @@ h1, h2, .title-div {
     height: auto;
     background-color: #555;
     border-radius: 15px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
     transition: all 0.3s ease; /* 부드러운 전환 효과 추가 */
     scroll-snap-align: start;
     /* transition은 이제 ::after로 옮겨집니다. */
